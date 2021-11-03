@@ -1,0 +1,295 @@
+/* <-- ALL -->*/
+
+
+*{
+  font-family: Arial, sans-serif;
+  color: #222;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+header{
+  height: 48px;
+  width: 99%;
+  padding: 0.8% 0.8%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+  text-decoration: underline;
+}
+
+
+/* <-- ID -->*/
+
+#connexion {
+  font-family: 'Roboto', sans-serif;
+  border : 0 ;
+  line-height : 10px;
+  padding : 9px 23px;
+  text-align : center;
+  color : #fff;
+  border-radius : 5px;
+  background-color : rgb(50,100,200);
+  margin : 0px 8px; 
+  font-size : 14px;
+  height: 36px;
+  margin-left: 6%;
+}
+
+#connexion:hover {
+  background-color: rgba(50, 100, 200, 0.9);
+  cursor:pointer;
+}
+#connexion:active {
+  background-color: rgba(50, 100, 200, 0.8);
+}
+
+#googlesearch {
+  border:rgb(240, 240, 240) 1px solid;
+  line-height : 12px;
+  padding : 0 50px;
+  color : #222;
+  border-radius : 5px;
+  background-color : rgb(240, 240, 240);
+  margin : 0px 8px; 
+  font-size : 14px;
+  height: 32px;
+  margin-left: 6%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#googlesearch:hover {
+  background-color: rgba(240,240,240, 0.9);
+  border:rgb(209, 209, 209) 1px solid;
+  cursor:pointer;
+}
+
+#googlesearch:active {
+  background-color: rgba(240,240,240, 0.8);
+  border: rgb(68, 143, 255) 1px solid;
+}
+
+#imlucky {
+  border : rgb(240, 240, 240) 1px solid ;
+  line-height : 12px;
+  padding : 0 50px;
+  color : #222;
+  border-radius : 5px;
+  background-color : rgb(240, 240, 240);
+  margin : 0px 8px; 
+  font-size : 14px;
+  height: 32px;
+  margin-left: 6%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#imlucky:hover {
+  background-color: rgba(240,240,240, 0.9);
+  border:rgb(209, 209, 209) 1px solid;
+  cursor:pointer;
+}
+
+#imlucky:active {
+  border:rgb(68, 143, 255) 1px solid;
+  background-color: rgba(240,240,240, 0.8);
+}
+
+#google{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+}
+
+/* <-- CLASS -->*/
+
+.barre_search {
+  position: relative;
+  display:grid;
+  grid-template-columns:1.5rem 4fr 1fr;
+  width:300px;
+  overflow: hidden;
+} 
+
+.barre_search:focus-within i{
+  display: none;
+}
+
+.icons{
+  position: absolute;
+  top: 33px; 
+  left: 20px
+}
+.iconm{
+  position: absolute;
+  top: 33px; 
+  right: 20px
+}
+
+.top-link{
+    height: 48px;
+    width: 19%;
+    display: flex;
+    margin-left: 80%;
+}
+
+.gmail{
+  width: 13,5%;
+  padding-left: 2%;
+  padding-top: 9px;
+}
+
+.gmail:hover{
+  text-decoration: underline;
+}
+
+.gmail a{
+  font-size: 12px;
+}
+
+.Images{
+  width: 15,28%;
+  padding-left: 6%;
+  padding-top: 9px;
+}
+
+.Images a{
+  font-size: 12px;
+  
+}
+
+.Images:hover{
+  text-decoration: underline;
+}
+
+.ptits-points{
+  width: 18%;
+  padding-left: 6%;
+  padding-top: 9px;
+}
+
+.img-ptits-points{
+  height: 16px;
+  width: auto;
+  padding-left: 20%;
+}
+
+.bouttons{
+  position: fixed;
+  width: 30%;
+  margin-left: 40%;
+  margin-right: 35%;
+  display: flex;
+  font-size: 10px;
+}
+
+.barre_search{
+  display: flex;
+  width: 35%;
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+}
+
+.barre_search input{
+  width: 100%;
+  height: 42px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding-left: 10px; 
+}
+
+.zob{
+  display:flex;
+  justify-content:flex-start ;
+}
+
+.chouf{
+  display:flex;
+  justify-content:flex-end;
+  
+}
+
+.liens.hover{
+  text-decoration: underline;
+}
+
+
+.lien-gauche{
+  width: 100%;
+ position: fixed;
+ background-color: #f2f2f2;
+ bottom:0;
+ padding: 0% 0%;
+ height: 46px;
+ display: flex;
+}
+
+.advertising{
+  width: 7.5%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+}
+
+
+.company{
+  width: 7.5%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+}
+
+.about{
+  width: 7.5%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+}
+
+.how{
+  width: 16%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+  font-size: 15px;
+}
+
+.consummer{
+  width: 10%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+  margin-left: 30%;
+}
+
+.confidentiality{
+  width: 7.5%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+}
+
+.conditions{
+  width: 7.5%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+}
+
+.settings{
+  width: 7.5%;
+  height: 46px;
+  padding-left: 1.5%;
+  padding-top: 0.9%;
+}
